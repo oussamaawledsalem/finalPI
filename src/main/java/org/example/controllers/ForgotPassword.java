@@ -86,7 +86,6 @@ public class ForgotPassword implements Initializable {
                     process = 2;
                     generatedCode = Encryptor.generateCode(5);
                     System.out.println(generatedCode);
-//                    SMSsender.Send("+216" + numTell, generatedCode);
 
                 }
             }
