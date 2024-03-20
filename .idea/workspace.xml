@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6db86b97-cc31-4efa-88d5-5351bf74b1ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/SMSsender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/SMSsender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controllers/ForgotPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controllers/ForgotPassword.class" afterDir="false" />
-    </list>
+    <list default="true" id="6db86b97-cc31-4efa-88d5-5351bf74b1ce" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +196,7 @@
       <workItem from="1710945218499" duration="3782000" />
       <workItem from="1710952380689" duration="46000" />
       <workItem from="1710952852888" duration="326000" />
-      <workItem from="1710953355347" duration="138000" />
+      <workItem from="1710953355347" duration="538000" />
     </task>
     <servers />
   </component>
