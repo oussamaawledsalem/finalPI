@@ -15,7 +15,7 @@ import org.example.models.User;
 import org.example.services.Crud_user;
 import org.example.utils.EmailSender;
 import org.example.utils.Encryptor;
-import org.example.utils.SMSsender;
+//import org.example.utils.SMSsender;
 
 import java.io.IOException;
 import java.net.URL;
@@ -86,7 +86,7 @@ public class ForgotPassword implements Initializable {
                     process = 2;
                     generatedCode = Encryptor.generateCode(5);
                     System.out.println(generatedCode);
-                    SMSsender.Send("+216" + numTell, generatedCode);
+//                    SMSsender.Send("+216" + numTell, generatedCode);
 
                 }
             }
