@@ -123,7 +123,7 @@ public class AfficherProduit {
     @FXML
     void Ajouter(ActionEvent event) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/Boutique/AjouterProduit.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/AjouterProduit.fxml"));
             Parent root = loader.load();
 
 
