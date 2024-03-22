@@ -46,7 +46,7 @@ public class CarteDashBoard {
     @FXML
     void modifier(ActionEvent event) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/Boutique/ModifierProduit.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/ModifierProduit.fxml"));
             Parent root = loader.load();
 
             ModifierProduit modifierProduitController = loader.getController();

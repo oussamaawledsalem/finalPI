@@ -92,19 +92,19 @@ public class Store {
         }
 
         btnBoutique.setOnAction(e -> {
-            naviguezVers("/Boutique/AfficherProduit.fxml");
+            naviguezVers("/AfficherProduit.fxml");
         });
         btnElection.setOnAction(e -> {
-            naviguezVers("/Election/DashbordElection.fxml");
+            naviguezVers("/DashbordElection.fxml");
         });
         btnReservation.setOnAction(e -> {
-            naviguezVers("/Reservation/Reservation.fxml");
+            naviguezVers("/Reservation.fxml");
         });
         btnJoueurs.setOnAction(e -> {
-            naviguezVers("/Employee/AffichageJoueur.fxml");
+            naviguezVers("/AffichageJoueur.fxml");
         });
         btnMatch.setOnAction(e -> {
-            naviguezVers("/Article/affichermatch.fxml");
+            naviguezVers("/affichermatch.fxml");
         });
 
     }
@@ -142,10 +142,10 @@ public class Store {
         try {
             for (Produit produit : produits) {
                 FXMLLoader fxmlLoader = new FXMLLoader();
-                fxmlLoader.setLocation(getClass().getResource("/Boutique/Carte.fxml"));
+                fxmlLoader.setLocation(getClass().getResource("/Carte.fxml"));
                 AnchorPane cardPane = fxmlLoader.load();
                 Carte card = fxmlLoader.getController();
-                card.setStoreController(this); // Définir une référence au contrôleur Store
+                card.setStoreController(this);
                 card.setData(produit);
                 produitContainer.add(cardPane, column++, row);
                 if (column == 3) {

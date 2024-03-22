@@ -82,7 +82,7 @@ public class AjouterProduit {
         Stage stage = (Stage) btnAjouter.getScene().getWindow();
         stage.close();
         Stage primaryStage = new Stage();
-        Parent root = FXMLLoader.load(getClass().getResource("/Boutique/AfficherProduit.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/AfficherProduit.fxml"));
         primaryStage.setTitle("Ajouter Produit");
         primaryStage.setScene(new Scene(root, 1920, 1080));
         primaryStage.show();

@@ -64,22 +64,22 @@ public class AfficherProduit {
             e.printStackTrace();
         }
         btnAccueil.setOnAction(e -> {
-            naviguezVers("/Article/afficherarticles.fxml");
+            naviguezVers("/afficherarticles.fxml");
         });
         btnContrats.setOnAction(e -> {
-            naviguezVers("/Employee/Contrat.fxml");
+            naviguezVers("/Contrat.fxml");
         });
         btnElection.setOnAction(e -> {
-            naviguezVers("/Election/AfficherElection.fxml");
+            naviguezVers("/AfficherElection.fxml");
         });
         btnJoueurs.setOnAction(e -> {
-            naviguezVers("/Employee/Employe.fxml");
+            naviguezVers("/Employe.fxml");
         });
         btnMatch.setOnAction(e -> {
-            naviguezVers("/Article/affichermatch.fxml");
+            naviguezVers("/affichermatch.fxml");
         });
         btnReservation.setOnAction(e -> {
-            naviguezVers("/Reservation/AjouterTerrain.fxml");
+            naviguezVers("/AjouterTerrain.fxml");
         });
 
 
@@ -93,7 +93,7 @@ public class AfficherProduit {
         try {
             for (Produit produit : produits) {
                 FXMLLoader fxmlLoader = new FXMLLoader();
-                fxmlLoader.setLocation(getClass().getResource("/Boutique/CarteDashBoard.fxml"));
+                fxmlLoader.setLocation(getClass().getResource("/carteDashBoard.fxml"));
                 AnchorPane cardPane = fxmlLoader.load();
                 CarteDashBoard card = fxmlLoader.getController();
                 card.setData(produit);

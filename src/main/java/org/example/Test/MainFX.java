@@ -16,7 +16,7 @@ public class MainFX extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
-        InputStream inputStream = getClass().getResourceAsStream("/AfficherProduit.fxml");
+        InputStream inputStream = getClass().getResourceAsStream("/Store.fxml");
         if (inputStream == null) {
             System.err.println("Resource not found");
         } else {

@@ -1,4 +1,4 @@
-package org.example.controllers.Election.Election;
+package org.example.controllers.Election;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
