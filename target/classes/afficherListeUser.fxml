@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.User.AfficherListeUser">
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.AfficherListeUser">
    <children>
       <TableView fx:id="tableuser" layoutX="61.0" layoutY="79.0" prefHeight="390.0" prefWidth="564.0" stylesheets="@/User/style.css">
         <columns>
@@ -32,13 +32,13 @@
       <Button fx:id="deleteButton" layoutX="260.0" layoutY="520.0" mnemonicParsing="false" onAction="#DeleteUseronClick" prefHeight="32.0" prefWidth="110.0" styleClass="form_container" text="Delete" textFill="#1f3ed9">
          <stylesheets>
             <URL value="@/User/style.css" />
-            <URL value="@/User/crud.css" />
+            <URL value="@/crud.css" />
          </stylesheets></Button>
       <Button fx:id="saveButton" layoutX="732.0" layoutY="485.0" mnemonicParsing="false" onAction="#SaveUser" prefHeight="26.0" prefWidth="93.0" text="Save">
          <stylesheets>
             <URL value="@/User/style.css" />
             <URL value="@/User/style.css" />
-            <URL value="@/User/crud.css" />
+            <URL value="@/crud.css" />
          </stylesheets></Button>
       <Label fx:id="novalid2" layoutX="656.0" layoutY="14.0" prefHeight="26.0" prefWidth="200.0" textFill="#fa1919" />
       <Label fx:id="novalid" layoutX="689.0" layoutY="90.0" prefHeight="18.0" prefWidth="126.0" textFill="#dc1313" />
@@ -48,8 +48,8 @@
             <String fx:value="blue-btn" />
          </styleClass>
          <stylesheets>
-            <URL value="@/User/style.css" />
-            <URL value="@/User/crud.css" />
+            <URL value="@/style.css" />
+            <URL value="@/crud.css" />
          </stylesheets></Button>
       <VBox layoutX="666.0" layoutY="101.0" prefHeight="253.0" prefWidth="220.0" spacing="10.0" styleClass="vbox" stylesheets="@/User/style.css">
          <children>
@@ -67,7 +67,7 @@
       </VBox>
       <ImageView fx:id="Redirect" fitHeight="41.0" fitWidth="41.0" layoutX="26.0" layoutY="15.0" onMouseClicked="#returnToPreviousScene" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@/User/image/icons8-left-arrow-50.png" />
+            <Image url="@/image/icons8-left-arrow-50.png" />
          </image>
       </ImageView>
    </children>

@@ -16,11 +16,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.Election.Election.AfficherElectionController">
+<AnchorPane prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.Election.AfficherElectionController">
    <children>
       <ImageView fitHeight="850.0" fitWidth="1000.0" layoutX="300.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@/Election/images/background2.png" />
+            <Image url="@/images/background2.png" />
          </image>
       </ImageView>
       <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1300.0">
@@ -151,7 +151,7 @@
             <Button fx:id="VoteButton" layoutX="1132.0" layoutY="50.0" mnemonicParsing="false" onAction="#goToVote" prefHeight="40.0" prefWidth="116.0" style="-fx-background-color: #00796b;" text="Afficher Vote" textFill="WHITE" />
          </children>
       </Pane>
-      <VBox id="menuu" alignment="TOP_CENTER" layoutX="15.0" layoutY="20.0" prefHeight="810.0" prefWidth="205.0" style=" -fx-background-radius: 0 20 20 0;" styleClass="menuu" stylesheets="@/Employee/style.css">
+      <VBox id="menuu" alignment="TOP_CENTER" layoutX="15.0" layoutY="20.0" prefHeight="810.0" prefWidth="205.0" style=" -fx-background-radius: 0 20 20 0;" styleClass="menuu" stylesheets="@/style.css">
          <children>
             <Label layoutX="26.0" layoutY="10.0">
                <font>
@@ -168,7 +168,7 @@
                <graphic>
                   <ImageView fitHeight="39.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@/Employee/images/logo.png" />
+                        <Image url="@/images/logo.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -178,11 +178,11 @@
                   <Font name="Arial Bold Italic" size="29.0" />
                </font>
             </Label>
-            <Button fx:id="btnAcceuil" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="190.0" stylesheets="@/Employee/style.css" text="Acceuil" textFill="#e7e5e5">
+            <Button fx:id="btnAcceuil" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="190.0" stylesheets="@/style.css" text="Acceuil" textFill="#e7e5e5">
                <graphic>
                   <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@/Employee/images/icons8_Home_32px.png" />
+                        <Image url="@/images/icons8_Home_32px.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -196,11 +196,11 @@
                   <Insets left="30.0" />
                </padding>
             </Button>
-            <Button fx:id="btnMatch" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/Employee/style.css" text="Match">
+            <Button fx:id="btnMatch" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/style.css" text="Match">
                <graphic>
                   <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@/Employee/images/icons8_Open_Envelope_32px.png" />
+                        <Image url="@/images/icons8_Open_Envelope_32px.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -208,11 +208,11 @@
                   <Insets left="30.0" />
                </padding>
             </Button>
-            <Button id="Reservation" fx:id="btnReservation" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/Employee/style.css" text="Reservation">
+            <Button id="Reservation" fx:id="btnReservation" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/style.css" text="Reservation">
                <graphic>
                   <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@/Employee/images/shippingtruck.png" />
+                        <Image url="@/images/shippingtruck.png" />
                      </image>
                      <effect>
                         <ColorAdjust contrast="-1.0" />
@@ -223,11 +223,11 @@
                   <Insets left="30.0" />
                </padding>
             </Button>
-            <Button fx:id="btnJoueurs" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/Employee/style.css" text="Joueurs">
+            <Button fx:id="btnJoueurs" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/style.css" text="Joueurs">
                <graphic>
                   <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@/Employee/images/icons8_Person_32px.png" />
+                        <Image url="@/images/icons8_Person_32px.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -235,11 +235,11 @@
                   <Insets left="30.0" />
                </padding>
             </Button>
-            <Button fx:id="btnContrats" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/Employee/style.css" text="Contrats">
+            <Button fx:id="btnContrats" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/style.css" text="Contrats">
                <graphic>
                   <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@/Employee/images/icons8_Xbox_Menu_32px.png" />
+                        <Image url="@/images/icons8_Xbox_Menu_32px.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -247,11 +247,11 @@
                   <Insets left="30.0" />
                </padding>
             </Button>
-            <Button fx:id="btnBoutique" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/Employee/style.css" text="Boutique">
+            <Button fx:id="btnBoutique" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/style.css" text="Boutique">
                <graphic>
                   <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@/Employee/images/icons8_Box_32px.png" />
+                        <Image url="@/images/icons8_Box_32px.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -259,11 +259,11 @@
                   <Insets left="30.0" />
                </padding>
             </Button>
-            <Button fx:id="btnElection" alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="10.0" layoutY="384.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/Employee/style.css" text="Election">
+            <Button fx:id="btnElection" alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="10.0" layoutY="384.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@/style.css" text="Election">
                <graphic>
                   <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@/Employee/images/icons8_Slider__32px.png" />
+                        <Image url="@/images/icons8_Slider__32px.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -271,11 +271,11 @@
                   <Insets left="30.0" />
                </padding>
             </Button>
-            <Button fx:id="btnSignout" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="273.0" style="-fx-background-color: #FFFFF;" stylesheets="@/Employee/style.css" text="Sign Out">
+            <Button fx:id="btnSignout" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="273.0" style="-fx-background-color: #FFFFF;" stylesheets="@/style.css" text="Sign Out">
                <graphic>
                   <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@/Employee/images/icons8_Sign_Out_32px.png" />
+                        <Image url="@/images/icons8_Sign_Out_32px.png" />
                      </image>
                   </ImageView>
                </graphic>

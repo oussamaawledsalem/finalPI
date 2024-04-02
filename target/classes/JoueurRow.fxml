@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="150.0" prefWidth="1160.0" stylesheets="@/Employee/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.Employe.JoueurRowController">
+<AnchorPane prefHeight="150.0" prefWidth="1160.0" stylesheets="@/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.JoueurRowController">
    <children>
       <VBox alignment="CENTER" layoutX="42.0" layoutY="-25.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -20,7 +20,7 @@
                <children>
                   <ImageView fx:id="JoueurImg" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@/Employee/images/icon.png" />
+                        <Image url="@/images/icon.png" />
                      </image>
                   </ImageView>
                   <VBox prefHeight="150.0" prefWidth="354.0">
@@ -55,7 +55,7 @@
                         </Label>
                      </children>
                   </VBox>
-                  <Button fx:id="JoueurDetails" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="222.0" styleClass="search-button" stylesheets="@/Employee/style.css" text="Plus de details" HBox.hgrow="ALWAYS">
+                  <Button fx:id="JoueurDetails" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="222.0" styleClass="search-button" stylesheets="@/style.css" text="Plus de details" HBox.hgrow="ALWAYS">
                      <HBox.margin>
                         <Insets left="300.0" top="60.0" />
                      </HBox.margin>

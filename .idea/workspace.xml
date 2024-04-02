@@ -6,11 +6,33 @@
   <component name="ChangeListManager">
     <list default="true" id="6db86b97-cc31-4efa-88d5-5351bf74b1ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Test/MainFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Test/MainFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/AfficherProduit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/AfficherProduit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/AjouterProduit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/AjouterProduit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/CarteDashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/CarteDashBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AffichageJoueur.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AffichageJoueur.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AfficherCandidat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AfficherCandidat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AfficherElection.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AfficherElection.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AfficherVote.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AfficherVote.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AjouterCandidat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AjouterCandidat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AjouterElection.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AjouterElection.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AjouterTerrain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AjouterTerrain.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CandidatItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CandidatItem.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Contrat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Contrat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ContratDashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ContratDashBoard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Crud.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Crud.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DashbordCandidat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DashbordCandidat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DashbordElection.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DashbordElection.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DashbordVote.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DashbordVote.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ElectionItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ElectionItem.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Employe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Employe.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ForgotPassword.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ForgotPassword.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JoueurCell.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JoueurCell.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JoueurDashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JoueurDashBoard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JoueurRow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JoueurRow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ListCandidatV.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ListCandidatV.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/afficherListeUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/afficherListeUser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/afficherarticles.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/afficherarticles.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/affichermatch.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/affichermatch.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ajouterarticle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ajouterarticle.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ajoutermatch.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ajoutermatch.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controllers/Election/Election/AjouterElectionController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +223,8 @@
       <workItem from="1710944894369" duration="15000" />
       <workItem from="1710944922309" duration="6000" />
       <workItem from="1710945218499" duration="3782000" />
-      <workItem from="1711144863623" duration="1354000" />
+      <workItem from="1711144863623" duration="2386000" />
+      <workItem from="1711668383672" duration="316000" />
     </task>
     <servers />
   </component>
